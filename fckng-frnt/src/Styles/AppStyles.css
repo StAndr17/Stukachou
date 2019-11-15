@@ -1,0 +1,73 @@
+.image_content {
+    overflow: hidden;
+}
+
+.item.poster.card {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    width: 298px;
+    height: 278px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px 16px 16px 16px;
+    overflow: hidden;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.consensus.tight {
+    box-sizing: border-box;
+}
+
+.outer_ring {
+    border-radius: 50%;
+    background-color: #081c22;
+}
+
+.user_score_chart {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.percent {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 0.6em;
+    padding-left: 2px;
+}
+
+.flex {
+    margin-left: 10px;
+}
+
+.overview {
+    word-wrap: break-word;
+    white-space: normal;
+    color: #4d4d4d;
+    font-size: 0.9em;
+    line-height: 1.2em;
+    margin-top: 30px;
+}
+
+.view_more {
+    border-top: 1px solid #e3e3e3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 16px;
+}
